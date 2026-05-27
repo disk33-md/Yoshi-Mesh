@@ -1,0 +1,46 @@
+# Build artifacts
+build/
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+Makefile
+*.o
+*.a
+*.so
+*.dylib
+*.exe
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Dependencies
+conan/
+*.lock
+
+# Test artifacts
+*.gcda
+*.gcno
+coverage.info
+
+# Logs
+*.log
+yoshi-node.log
+
+# Config
+config/*.local.yaml
+config/*.prod.yaml
+
+# Data
+*.db
+*.sqlite
+data/
+.yoshi/
+
+# Package artifacts
+*.tar.gz
+*.zip
